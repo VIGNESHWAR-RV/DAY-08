@@ -1,0 +1,23 @@
+
+   "Person Class"
+   
+class Person{
+   static name = "RV";
+   nationality = Indian;
+    address(){
+        return `address - ${Person.name} lives in Salem`;
+    }
+    currently(){
+        return `currently- ${Person.name} is phaving fun with JS`;
+    }
+    hobby(){
+        return "hobbies - playing with code and exploring new things";
+    }
+    languages(){
+        return `languages - know tamil and English and brilliant Thanglish`;
+    }
+    skills(){
+        return 'skills - solution seeking and problem making';
+    }
+}
+

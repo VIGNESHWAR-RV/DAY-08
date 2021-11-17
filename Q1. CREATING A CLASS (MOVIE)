@@ -1,0 +1,35 @@
+
+     "CREATING A CLASS (MOVIE)"
+	 
+class Movie{
+    constructor(title,studio,rating="PG"){
+        this.title = title;
+        this.studio = studio;
+        this.rating = rating;
+    }
+    Title(){
+        console.log(`The title of the movie is "${this.title}"`);
+    }
+    Studio(){
+        console.log(`The studio that made this movie "${this.title}" is "${this.studio}"`);
+    }
+    Rating(){
+        console.log(`The rating of the movie "${this.title}" is - "${this.rating}"`);
+    }
+}
+let movie1 = new Movie("Casino Royale","Eon Productions","PG13");
+movie1.Title();
+movie1.Studio();
+movie1.Rating();
+
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+                                                                        |
+OUTPUT :                                                                X
+                                                                        |
+The title of the movie is "Casino Royale"                               X
+                                                                        |
+The studio that made this movie "Casino Royale" is "Eon Productions"    X
+                                                                        |
+The rating of the movie "Casino Royale" is - "PG13"                     X
+                                                                        |
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
