@@ -11,8 +11,6 @@ class Uber {
         this.mile=mile;
     }
     totalPrice(time=this.time , mile=this.mile){
-        this.time=time;
-        this.mile=mile;
         console.log(`the total price is ${(Uber.BaseFare)+(Uber.BookingFee)+((Uber.CostPerMinute)*time)+((Uber.CostPerMile)*mile)} only`);
     }
 }
